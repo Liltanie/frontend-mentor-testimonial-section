@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h2,
+p,
+img {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
