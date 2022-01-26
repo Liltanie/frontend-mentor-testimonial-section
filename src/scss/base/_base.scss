@@ -21,3 +21,13 @@ body {
         grid-template-rows: repeat(2, auto);
     }
 }
+
+.attribution {
+    text-align: center;
+    padding: 2rem;
+    color: $dark-blue;
+
+    a {
+        color: $purple;
+    }
+}
