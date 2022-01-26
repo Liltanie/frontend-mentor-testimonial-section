@@ -3,3 +3,21 @@
 body {
     background-color: $light-blue;
 }
+
+.container {
+    display: grid;
+    gap: 2rem;
+    margin: 5rem auto;
+    width: 90vw;
+    max-width: 90rem;
+
+    @include for-tablet-portrait-up {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+    }
+
+    @include for-tablet-landscape-up {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, auto);
+    }
+}

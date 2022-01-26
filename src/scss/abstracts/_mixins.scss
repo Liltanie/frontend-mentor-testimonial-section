@@ -1,0 +1,25 @@
+@use './variables' as *;
+
+@mixin card-colors($background: $white, $text-color: $grayish-blue) {
+    background-color: $background;
+    color: $text-color;
+
+    p span {
+        color: rgba($text-color, $alpha: 0.5);
+    }
+
+    > p {
+        color: rgba($text-color, $alpha: 0.7);
+    }
+}
+
+@mixin for-tablet-portrait-up {
+    @media (min-width: 600px) {
+        @content;
+    }
+}
+@mixin for-tablet-landscape-up {
+    @media (min-width: 900px) {
+        @content;
+    }
+}
