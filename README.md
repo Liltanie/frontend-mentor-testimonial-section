@@ -69,5 +69,5 @@ I want to improve my archive architecture.
 
 ## Author
 
--   Frontend Mentor - [@bramuccci](https://www.frontendmentor.io/profile/bramuccci)
+-   Frontend Mentor - [@liltanie](https://www.frontendmentor.io/profile/liltanie)
 -   Twitter - [@bramuccci](https://www.twitter.com/bramuccci)
