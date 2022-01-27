@@ -393,6 +393,7 @@ body {
 }
 @media (min-width: 900px) {
   .container {
+    margin: 10rem auto;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, auto);
   }

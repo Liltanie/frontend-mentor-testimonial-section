@@ -17,6 +17,7 @@ body {
     }
 
     @include for-tablet-landscape-up {
+        margin: 10rem auto;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, auto);
     }
